@@ -1,0 +1,82 @@
+.care {
+    padding-top: 64px;
+    padding-bottom: 191px;
+    
+}
+
+
+.care__inner {
+    width: 100%;
+    max-width: 753px;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+
+
+    &::before{
+        position: absolute;
+        z-index: 2;
+        top: -40px ;
+        left: -50px;
+        width: 142px;
+        height:128px ;
+        background-image: url("../../img/before.png");
+        background-repeat: no-repeat;
+        content: "";
+    }
+
+    &::after{
+        position: absolute;
+        z-index: 2;
+        top: 90px;
+        right: -147px;
+        width: 142px;
+        height:128px ;
+        background-image: url("../../img/after.png");
+        background-repeat: no-repeat;
+        content: "";
+    }
+     
+}
+
+.care__info{
+
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #949494;
+    margin-top: 43px;
+    margin-bottom: 70px;
+    position: relative;
+
+    &::before{
+        content: "";
+        width: 100%;
+        max-width: 140px;
+        height: 2px;
+        background-color: #DBDBDB;
+        position: absolute;
+        top: -42px;
+        left: 263px;
+    }
+
+    &::after{
+        content: "";
+        width: 100%;
+        max-width: 140px;
+        height: 2px;
+        background-color: #DBDBDB;
+        position: absolute;
+        bottom: -42px;
+        left: 263px;
+    }
+    
+}
+
+.care__text {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    color: #333333;
+}

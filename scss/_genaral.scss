@@ -11,9 +11,16 @@ html{
 }
 
 body{
-    font-family: "Arial", sans-serif;
-    margin: 0 ;
+    font-family:"Futura PT";
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin: 0;
     padding: 0;
+    background-color: #F9F9F9;
+    background-image: url(../img/back-img.png);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 img{

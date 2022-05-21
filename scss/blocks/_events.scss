@@ -1,0 +1,80 @@
+.event {
+    padding-top: 108px;
+    padding-bottom: 65px;
+    background-image: url("../../img/dog-bg.png"),;
+    background-repeat: no-repeat;
+    background-size: 100% 317px ;
+    background-position:center  calc(50% + 22px) ;
+    position: relative;
+
+    &::before{
+        position: absolute;
+       top: 40px;
+       right:calc(50% - 620px) ;
+        width:613px;
+        height:481px;
+        background-image: url("../../img/dog-alfa.png");
+        background-repeat: no-repeat;
+        background-size:  613px 481px ;
+        background-position: calc(50% + 30px) calc(50% - 30px) ;
+        content: "";
+    }
+}
+
+
+
+
+
+
+.event__inner {
+    padding-top: 88px;
+    padding-bottom: 90px;
+    padding-left: 197px;
+
+}
+
+.event__title {
+    display: inline-block;
+    font-weight: 700;
+    font-size: 48px;
+    color: #FFFFFF;
+    margin-top: 0;
+    margin-bottom: 32px;
+}
+
+
+
+.event__input {
+    display: inline-block;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #949494;
+    margin-right: 21px;
+    padding: 18px 127px 12px 22px;
+    border: none;
+    background: #FFFFFF;
+    border-radius: 5px;
+}
+
+
+.event__input:focus{
+    outline: none;
+    background: #FFFFFF;
+    border: 2px solid #FF6347;
+    border-radius: 5px;
+}
+
+
+
+.event__sign {
+    display: inline-block;
+    font-size: 16px;
+    line-height: 21px;
+    padding: 15px 53px 14px 51px;
+    color: #ffffff;
+    background-color: #333333;
+    transition: all 0.6s ease;
+    border: none;
+    border-radius: 3px;
+}

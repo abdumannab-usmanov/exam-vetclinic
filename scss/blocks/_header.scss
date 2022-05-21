@@ -1,0 +1,253 @@
+.header__top{
+    padding-top: 11px;
+    padding-bottom:9px;
+}
+
+.header-top__content {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    
+}
+
+.header-top__address {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #333333;
+    margin-right: 128px;
+    
+    position: relative;
+    
+    &::before{
+        width: 14px;
+        height: 13px;
+        position: absolute;
+        top: 3px;
+        left: -22px;
+        background-image: url("../../img/house.svg");
+        background-repeat: no-repeat;
+        background-size: 14px 13px;
+        content: "";
+    }
+}
+
+
+.header-top__link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #333333;
+    text-decoration: none;
+    transition: all 0.4s ease;
+    position: relative;
+    
+    &--first::before{
+        width: 14px;
+        height: 13px;
+        position: absolute;
+        top: 2px;
+        bottom: 0;
+        left: -22px;
+        background-image: url("../../img/phone.svg");
+        background-repeat: no-repeat;
+        background-size: 13px 13px;
+        content: "";
+    }
+    
+    &:hover{
+        color:#FFBD54;
+    }
+    
+    
+    &:active{
+        opacity: 0.6;
+    }
+}
+
+.header-top__link + .header-top__link {
+    margin-left: 22px;
+}
+
+.header-top__link--dote::before{
+    width: 4px;
+    height: 4px;
+    position: absolute;
+    top: 7px;
+    left: -10px;
+    background-image: url("../../img/circle.svg");
+    background-repeat: no-repeat;
+    background-size: 4px 4px;
+    content: "";
+}
+
+.header-top__time{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px; 
+    color: #333333;
+}
+
+.header-top__time--first{
+    margin-left:119px;
+    margin-right: 17px;
+}
+
+// .header-top__bold{
+//     font-weight: 600;
+// }
+
+
+// ==================header-bottom================
+
+
+
+.header__bottom {
+    background-color:#FFFFFF;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+
+.header-bottom__content {
+    display: flex;
+    align-items: center;
+}
+
+.header-bottom__logo {
+    width: 100%;
+    max-width: 178px;
+    max-height: 87px;
+    transition: all 0.4s ease;
+    position: absolute;
+    
+    &:hover{
+        opacity: 0.8;
+    }
+    
+    &:active{
+        opacity: 0.6;
+    }
+}
+
+.header-bottom__img {
+    width: 100%;
+}
+.header-bottom__menu {
+    margin-left: auto;
+    margin-right: 192px;
+}
+.menu {
+    display: flex;
+    align-items: center;
+    position: relative;
+    
+    &:before{
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        top: 2px;
+        left: -30px;
+        background-image: url(../img/fish.svg);
+        background-repeat: no-repeat;
+        background-size: 20px 20px;
+        content: "";
+    }
+}
+
+
+
+.menu__list {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.menu__item + .menu__item {
+    margin-left: 55px;
+}
+
+.menu__link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px; 
+    text-decoration: none;
+    color: #333333;
+    position: relative;
+    z-index: 2;
+    
+    
+    &::before{
+        width: 100%;
+        height: 0%;
+        position: absolute;
+        z-index: -1;
+        right: 0;
+        left: 0;
+        bottom: 10%;
+        background-color: #F4FFAD;
+        content: "";
+        transition: all 0.4s ease;
+        
+    }
+    
+    &:hover::before{
+        height: 30%;  
+    }
+    
+    &:active{
+        opacity: 0.6; 
+    }
+    
+}
+
+.header-bottom__answer {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #333333;
+    text-decoration: none;
+    position: relative;
+    z-index: 2;
+    
+    
+    &::before{
+        position: absolute;
+        left: -26px;
+        width: 23px;
+        height: 21px;
+        background-image: url("../img/pet.svg");
+        background-repeat: no-repeat;
+        background-size:23px 21px;
+        content: "";
+        
+    }
+    
+    &::after{
+        width: 100%;
+        height: 0%;
+        position: absolute;
+        z-index: -1;
+        right: 0;
+        left: 0;
+        bottom: 10%;
+        background-color: #F4FFAD;
+        content: "";
+        transition: all 0.4s ease;
+        
+    }
+    
+    &:hover::after{
+        height: 30%;
+        
+    }
+    
+    &:active{
+        opacity: 0.6;
+    }
+    
+    
+}

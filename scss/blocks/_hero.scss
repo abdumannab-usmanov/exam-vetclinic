@@ -1,0 +1,69 @@
+.hero {
+    padding-top: 153px;
+    padding-bottom: 290px;
+    background-image: url("../../img/Group-1.png"), url("../../img/Group-2.png");
+    background-repeat: no-repeat;
+    background-size: 870px 834px, 319PX 430px;
+    background-position: calc(50% - 466px) calc(50% - 160px), calc(50% + 700px) calc(50% + 130px);
+}
+
+
+
+.hero__inner {
+    width: 100%;
+    max-width: 608px;
+    margin-left: auto;
+    margin-right: 30px;
+    
+}
+.hero__title {
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 64px;
+    color: #333333;
+    margin-top: 0;
+    margin-bottom: 29px;
+    
+}
+.hero__color {
+    color: #78C0DE;
+}
+
+.hero__wraper{
+    width: 100%;
+    max-width: 495px;
+}
+
+
+.hero__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #949494;
+    margin-top: 0;
+    margin-bottom: 38px;
+    
+}
+
+.hero__link {
+    display: inline-block;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    padding: 15px 48px;
+    background: #333333;
+    border-radius: 3px;
+    text-decoration: none;
+    color: #FFFFFF;
+    transition: all 0.4s ease;
+
+    &:hover{
+        opacity: 0.8;
+    }
+
+    &:active{
+        opacity: 0.6;
+    }
+
+}
+
