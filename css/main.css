@@ -933,6 +933,7 @@ img {
 }
 
 .services__item {
+  height: 215px;
   padding: 129px 32px 42px 35px;
   background: #FFFFFF;
   border-radius: 5px 5px 0px 0px;
